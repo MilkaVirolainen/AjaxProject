@@ -20,7 +20,7 @@ Sivu toimii niin että se hakee tiedot kun valitaan teatteri ja näyttää ne si
 
 ## Julkaisu
 
-[Projektin linkki Netlifyyn](https://your-netlify-link.netlify.app)
+[Projektin linkki Netlifyyn](https://profound-kitsune-c4e6f0.netlify.app/)
 
 ---
 
