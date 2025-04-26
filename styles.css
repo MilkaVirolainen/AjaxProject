@@ -1,0 +1,64 @@
+/* Yleiset asetukset */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  padding: 20px;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Dropdown valikko */
+#theaterSelect {
+  display: block;
+  margin: 0 auto 30px auto;
+  padding: 10px;
+  font-size: 16px;
+}
+
+/* Elokuvakorttien alue */
+#moviesContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+/* Yksittäinen elokuvakortti */
+.movie-card {
+  background: #ffffff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+  text-align: center;
+}
+
+/* Hover-efekti kortille */
+.movie-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Elokuvakuva */
+.movie-card img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+/* Elokuvan otsikko */
+.movie-card h3 {
+  margin: 10px 0 5px 0;
+  font-size: 18px;
+}
+
+/* Näytösaika */
+.movie-card p {
+  font-size: 14px;
+  color: #555;
+}
